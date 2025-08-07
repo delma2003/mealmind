@@ -51,18 +51,18 @@ SPOONACULAR_API_KEY=your_spoonacular_key
 JWT_SECRET=your_jwt_secret
 MONGO_URI=your_mongo_uri
 📸 Screenshots
-### 👤 Register
-<img src="/assets/Registerpage.png" alt="Dashboard" width="700"/>
+### 🧑‍💻 Register
+<img src="frontend/public/assets/Registerpage.png" alt="Register" width="700"/>
 
 ### 🏠 Dashboard
-<img src="/assets/Dashboardpage.png" alt="Dashboard" width="700"/>
-
+<img src="frontend/public/assets/Dashboardpage.png" alt="Dashboard" width="700"/>
 
 ### 🔐 Login Page
-<img src="/assets/Loginpage.png" alt="Login Page" width="500"/>
+<img src="frontend/public/assets/Loginpage.png" alt="Login Page" width="500"/>
 
-### 🧠 Generated Meal Plan
-<img src="/assets/Mealplanpage.png" alt="Meal Plan" width="700"/>
+### 🍽️ Generated Meal Plan
+<img src="frontend/public/assets/Mealplanpage.png" alt="Meal Plan" width="700"/>
+
 
 
 
