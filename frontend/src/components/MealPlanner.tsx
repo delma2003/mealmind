@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 interface MealPlannerProps {
-  onPlanReceived?: (planText: string, usedFallback: boolean) => void;
+  onPlanGenerated?: (planText: string, usedFallback: boolean) => void;
 }
 
 const commonIngredients = ['Chicken', 'Eggs', 'Milk', 'Rice', 'Spinach', 'Potatoes', 'Tofu', 'Tomatoes',
   'Broccoli', 'Carrots', 'Oats', 'Banana', 'Apple', 'Wheat Bread', 'Salmon', 'Yogurt',
   'Cheese', 'Lentils', 'Cucumber', 'Zucchini', 'Quinoa', 'Beef', 'Pasta', 'Peas'];
 
-const MealPlanner: React.FC<MealPlannerProps> = ({ onPlanReceived }) => {
+const MealPlanner: React.FC<MealPlannerProps> = ({ onPlanGenerated }) => {
   const [diet, setDiet] = useState('');
   const [calories, setCalories] = useState<number>(0);
   const [allergies, setAllergies] = useState('');
@@ -33,18 +33,10 @@ const MealPlanner: React.FC<MealPlannerProps> = ({ onPlanReceived }) => {
 
       const { data, usedFallback } = response.data;
 
-      console.log('Received meal plan:', data);
-
       setMealPlan(data);
-      onPlanReceived?.(data, usedFallback);
+      onPlanGenerated?.(data, usedFallback);
     } catch (err: unknown) {
       console.error('API error:', err);
-
-      if (err instanceof Error) {
-        setError(err.message);
-      } else {
-        setError('Failed to generate meal plan. Please try again.');
-      }
 
       const fallbackPlan = `**Fallback Meal Plan**
 
@@ -54,7 +46,13 @@ Lunch: Veggie wrap
 Dinner: Lentil soup with salad`;
 
       setMealPlan(fallbackPlan);
-      onPlanReceived?.(fallbackPlan, true);
+      onPlanGenerated?.(fallbackPlan, true);
+
+      if (err instanceof Error) {
+        setError(err.message);
+      } else {
+        setError('Failed to generate meal plan. Please try again.');
+      }
     }
   };
 
@@ -62,6 +60,7 @@ Dinner: Lentil soup with salad`;
     <div className="w-full p-2">
       <h2 className="text-2xl font-bold mb-4 text-center text-gray-700">Smart Meal Planner</h2>
 
+      {/* Form Inputs */}
       <div className="mb-4">
         <label className="block text-sm font-semibold mb-1">Diet:</label>
         <select
@@ -150,18 +149,7 @@ Dinner: Lentil soup with salad`;
 
       {error && <p className="text-red-500 mt-4 text-sm">{error}</p>}
 
-      {mealPlan && (
-        <div className="mt-6 bg-gray-100 p-4 rounded shadow-inner">
-          <h3 className="font-semibold mb-2 text-gray-700">Generated Plan:</h3>
-          <div className="grid gap-4">
-            {mealPlan.split(/\n{2,}/).map((day, index) => (
-              <div key={index} className="bg-white p-3 border rounded shadow-sm">
-                <pre className="whitespace-pre-wrap text-sm text-gray-700">{day}</pre>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
+      
     </div>
   );
 };

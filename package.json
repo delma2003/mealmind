@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@unocss/preset-attributify": "^66.4.1",
+    "@unocss/preset-icons": "^66.4.1",
+    "@unocss/preset-uno": "^66.4.1",
+    "unocss": "^66.4.1"
+  }
+}
