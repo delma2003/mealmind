@@ -50,18 +50,20 @@ GROQ_API_KEY=your_groq_api_key
 SPOONACULAR_API_KEY=your_spoonacular_key
 JWT_SECRET=your_jwt_secret
 MONGO_URI=your_mongo_uri
-📸 Screenshots
-### 🧑‍💻 Register
-<img src="https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Registerpage.png?raw=true" alt="Register" width="700"/>
+## 📸 Screenshots
+
+### 📝 Register
+![Register](https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Registerpage.png?raw=true)
 
 ### 🏠 Dashboard
-<img src="https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Dashboardpage.png?raw=true" alt="Dashboard" width="700"/>
+![Dashboard](https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Dashboardpage.png?raw=true)
 
 ### 🔐 Login Page
-<img src="https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Loginpage.png?raw=true" alt="Login Page" width="500"/>
+![Login Page](https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Loginpage.png?raw=true)
 
-### 🍽️ Generated Meal Plan
-<img src="https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Mealplanpage.png?raw=true" alt="Meal Plan" width="700"/>
+### 🍽 Generated Meal Plan
+![Meal Plan](https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Mealplanpage.png?raw=true)
+
 
 
 
