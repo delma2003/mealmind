@@ -56,7 +56,7 @@ MONGO_URI=your_mongo_uri
 ![Register](https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Registerpage.png?raw=true)
 
 ### 🏠 Dashboard
-![Dashboard](https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Dashboardpage.png?raw=true)
+![Dashboard](https://raw.githubusercontent.com/delma2003/mealmind/refs/heads/main/frontend/public/assets/Dashboardpage.png)
 
 ### 🔐 Login Page
 ![Login Page](https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Loginpage.png?raw=true)
