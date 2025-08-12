@@ -52,17 +52,11 @@ JWT_SECRET=your_jwt_secret
 MONGO_URI=your_mongo_uri
 ## 📸 Screenshots
 
-### 📝 Register
-![Register](https://raw.githubusercontent.com/delma2003/mealmind/main/frontend/public/assets/Registerpage.png)
+![Register](frontend/public/assets/Registerpage.png)
+![Dashboard](frontend/public/assets/Dashboardpage.png)
+![Login Page](frontend/public/assets/Loginpage.png)
+![Meal Plan](frontend/public/assets/Mealplanpage.png)
 
-### 🏠 Dashboard
-![Dashboard](https://raw.githubusercontent.com/delma2003/mealmind/main/frontend/public/assets/Dashboardpage.png)
-
-### 🔐 Login Page
-![Login Page](https://raw.githubusercontent.com/delma2003/mealmind/main/frontend/public/assets/Loginpage.png)
-
-### 🍽 Generated Meal Plan
-![Meal Plan](https://raw.githubusercontent.com/delma2003/mealmind/main/frontend/public/assets/Mealplanpage.png)
 
 
 
