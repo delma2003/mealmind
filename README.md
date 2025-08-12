@@ -55,16 +55,16 @@ MONGO_URI=your_mongo_uri
 ## 📸 Screenshots
 
 ### 📑 Register
-![Register](https://private-user-images.githubusercontent.com/108217741/477134570-281e67aa-f790-43e8-803c-9d37d4504a74.png)
+![Register](frontend/public/assets/Registerpage.png)
 
 ### 🏠 Dashboard
-![Dashboard](https://private-user-images.githubusercontent.com/108217741/477134665-15c4babd-5511-4c6f-95bc-0d9bafc59819.png)
+![Dashboard](frontend/public/assets/Dashboardpage.png)
 
 ### 🔐 Login Page
-![Login Page](https://private-user-images.githubusercontent.com/108217741/477134449-c872e752-3ca7-49b8-b734-d4f09d58c8d8.png)
+![Login Page](frontend/public/assets/Loginpage.png)
 
 ### 🍽️ Generated Meal Plan
-![Meal Plan](https://private-user-images.githubusercontent.com/108217741/477134787-86a3a193-a412-4676-804c-f56805f2f3c7.png)
+![Meal Plan](frontend/public/assets/Mealplanpage.png)
 
 
 
