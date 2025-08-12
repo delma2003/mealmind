@@ -53,16 +53,16 @@ MONGO_URI=your_mongo_uri
 ## 📸 Screenshots
 
 ### 📝 Register
-![Register](https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Registerpage.png?raw=true)
+![Register](https://raw.githubusercontent.com/delma2003/mealmind/main/frontend/public/assets/Registerpage.png)
 
 ### 🏠 Dashboard
-![Dashboard](https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Dashboardpage.png?raw=true)
+![Dashboard](https://raw.githubusercontent.com/delma2003/mealmind/main/frontend/public/assets/Dashboardpage.png)
 
 ### 🔐 Login Page
-![Login Page](https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Loginpage.png?raw=true)
+![Login Page](https://raw.githubusercontent.com/delma2003/mealmind/main/frontend/public/assets/Loginpage.png)
 
 ### 🍽 Generated Meal Plan
-![Meal Plan](https://github.com/delma2003/mealmind/blob/main/frontend/public/assets/Mealplanpage.png?raw=true)
+![Meal Plan](https://raw.githubusercontent.com/delma2003/mealmind/main/frontend/public/assets/Mealplanpage.png)
 
 
 
